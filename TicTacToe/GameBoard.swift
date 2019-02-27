@@ -22,8 +22,10 @@ struct GameBoard {
         
         var stringValue: String {
             switch self {
-            case .x: return "X"
-            case .o: return "O"
+            case .x:
+                return "X"
+            case .o:
+                return "O"
             }
         }
     }
